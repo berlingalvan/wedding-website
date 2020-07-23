@@ -34,7 +34,7 @@
     </p>
 
     <h1>See how it all started</h1>
-    <button class="primary">Our Story</button>
+    <button class="button is-primary">Our Story</button>
 
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
@@ -52,8 +52,3 @@ export default {
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
