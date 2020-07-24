@@ -1,17 +1,26 @@
 // Import Bulma's core
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 // Set your colors
-$primary: #8c67ef;
+$primary: #000;
 $primary-invert: findColorInvert($primary);
-$twitter: #4099FF;
-$twitter-invert: findColorInvert($twitter);
 
-
+$family-sans-serif: 'PT Serif', serif;
 // Links
 $link: $primary;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
 
+#main-hero {
+    background-image: linear-gradient(rgba(69, 56, 14, 0.15),
+                       rgba(69, 56, 14, 0.15)),url('images/hero-horizontal.jpg') ;
+    background-position: center bottom;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
 // Import Bulma and Buefy styles
 @import "bulma/bulma";
-@import "~buefy/src/scss/buefy";
