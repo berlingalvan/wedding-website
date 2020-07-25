@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <body>
       <!-- Learn how to use images here: https://gridsome.org/docs/images -->
       <!-- Hero image -->
       <section class="hero is-link is-fullheight">
@@ -76,6 +77,7 @@
         </div>
       </div>
     </section>
+    </body>
   </Layout>
 </template>
 
